@@ -1,6 +1,6 @@
 package com.company;
 
-public class Weapons {
+public abstract class Weapons {
     private String name;
     private int price;
 
