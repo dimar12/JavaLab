@@ -8,10 +8,10 @@ public class myThread extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 10; ++i) {
-            synchronized (storage) {
+
                 this.storage.value += 1;
                 System.out.println("[myThread] value = " + storage.value);
-            }
+
         }
     }
 }
