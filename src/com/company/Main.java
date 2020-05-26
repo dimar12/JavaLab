@@ -22,10 +22,12 @@ public class Main {
         myThread thread1 = new myThread(storage);
         myThread2 thread2 = new myThread2(storage);
         thread1.start();
+        System.out.println("thread 1 started");
         thread2.start();
+        System.out.println("thread 2 started");
         thread1.join();
         thread2.join();
-        System.out.println("value = " + storage.value);
+        System.out.println("end value = " + storage.value);
     }
 }
 
