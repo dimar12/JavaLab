@@ -1,17 +1,19 @@
-package com.company;
+package com.company.decorator;
 
-public class rifledBarrel extends Decorator
+import com.company.hierarchy.Weapons;
+
+public class bayonetKnife extends Decorator
 {
     Weapons weapon;
-    public rifledBarrel(String name, int price,  Weapons weapon) {
+    public bayonetKnife(String name, int price,  Weapons weapon) {
         super(name, price);
         this.weapon = weapon;
     }
     public String description() {
-        return weapon.description() + ", с нарезным стволом";
+        return weapon.description() + ", с штык-ножом";
     }
     public int getPrice(){
-        return weapon.getPrice() + 300;
+        return weapon.getPrice() + 200;
     }
     @Override
     public void setCaliber(double caliber) {

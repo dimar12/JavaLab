@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hierarchy;
 
 public class Rifle extends Gunshot{
     public  Rifle(String name, int price,double caliber,int ammunition){

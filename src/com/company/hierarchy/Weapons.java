@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hierarchy;
 
 public abstract class Weapons {
     private String name;

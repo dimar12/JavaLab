@@ -1,4 +1,4 @@
-package com.company;
+package com.company.threads;
 
 public class myThread2 extends Thread {
     private final StorageForValue storage;

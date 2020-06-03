@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hierarchy;
 
 public class MachineGun extends Gunshot{
     private int rateOfFire;

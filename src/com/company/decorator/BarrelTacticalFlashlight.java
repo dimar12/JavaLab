@@ -1,4 +1,6 @@
-package com.company;
+package com.company.decorator;
+
+import com.company.hierarchy.Weapons;
 
 public class BarrelTacticalFlashlight extends Decorator
 {

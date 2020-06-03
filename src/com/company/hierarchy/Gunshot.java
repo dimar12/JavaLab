@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hierarchy;
 
 public class Gunshot extends Weapons{
     private double caliber;
